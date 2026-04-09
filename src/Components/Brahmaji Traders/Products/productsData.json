@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Tomato", "category": "Vegetables", "price": 42, "image": "https://images.unsplash.com/photo-1561136594-7f68413baa99?auto=format&fit=crop&w=900&q=80" },
+  { "id": 2, "name": "Potato", "category": "Vegetables", "price": 47, "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80" },
+  { "id": 3, "name": "Onion", "category": "Vegetables", "price": 58, "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=900&q=80" },
+  { "id": 4, "name": "Carrot", "category": "Vegetables", "price": 52, "image": "https://images.unsplash.com/photo-1447175008436-170170753d52?auto=format&fit=crop&w=900&q=80" },
+  { "id": 5, "name": "Cauliflower", "category": "Vegetables", "price": 65, "image": "https://images.unsplash.com/photo-1510627498534-cf7e9002facc?auto=format&fit=crop&w=900&q=80" },
+  { "id": 6, "name": "Green Chilli", "category": "Vegetables", "price": 80, "image": "https://images.unsplash.com/photo-1588252303782-cb80119abd6d?auto=format&fit=crop&w=900&q=80" },
+  { "id": 7, "name": "Banana", "category": "Fruits", "price": 48, "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=900&q=80" },
+  { "id": 8, "name": "Apple", "category": "Fruits", "price": 130, "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=900&q=80" },
+  { "id": 9, "name": "Orange", "category": "Fruits", "price": 95, "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=900&q=80" },
+  { "id": 10, "name": "Mango", "category": "Fruits", "price": 160, "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=900&q=80" },
+  { "id": 11, "name": "Rice", "category": "Grains", "price": 62, "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80" },
+  { "id": 12, "name": "Toor Dal", "category": "Grains", "price": 128, "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=900&q=80" }
+]

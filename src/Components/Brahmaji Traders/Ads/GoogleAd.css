@@ -1,0 +1,8 @@
+.google-ad-wrap {
+  width: 100%;
+  border: 1px solid #d8e6f5;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  padding: 8px;
+  box-sizing: border-box;
+}

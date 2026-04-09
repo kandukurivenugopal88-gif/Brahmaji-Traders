@@ -1,0 +1,244 @@
+.header {
+  height: 90px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 35% 45% 20%;
+}
+.header div:nth-child(1) h1 {
+  color: tomato;
+  font-size: 50px;
+}
+.header div:nth-child(2) a {
+  font-size: x-large;
+  font-weight: 600;
+  margin-right: 30px;
+  text-decoration: none;
+  color: #2a2a2a;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header div:nth-child(2) a:hover {
+  color: #d84a2a;
+  transform: translateY(-1px);
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-arrow {
+  font-size: 0.8em;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.nav-dropdown.open .nav-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  padding: 8px 0;
+  display: none;
+  z-index: 20;
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  margin-right: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  color: #2e2e2e;
+}
+
+.nav-dropdown-menu a:hover {
+  background: #f4f7fb;
+  color: #0f4d7a;
+}
+
+.nav-rating {
+  position: relative;
+  margin-right: 10px;
+}
+
+.rating-bell-btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease;
+}
+
+.rating-bell-btn:hover {
+  transform: translateY(-1px);
+}
+
+.rating-bell-btn i {
+  margin-right: 0;
+}
+
+.rating-bell-btn .bi-bell-fill {
+  color: tomato;
+}
+
+.rating-badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.rating-dropdown {
+  position: absolute;
+  top: 38px;
+  right: -10px;
+  width: 320px;
+  max-height: 360px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #e7edf6;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+  z-index: 40;
+}
+
+.rating-dropdown-head {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef3f9;
+  color: #14344f;
+}
+
+.rating-dropdown-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rating-dropdown-list li {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f1f4f8;
+}
+
+.rating-dropdown-list li.unread {
+  background: #fff7eb;
+}
+
+.rating-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.rating-product {
+  color: #20364a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.rating-score {
+  color: #a14408;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.rating-dropdown-list p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #45586a;
+}
+
+.rating-dropdown-list small {
+  color: #6c7c8a;
+  font-size: 0.75rem;
+}
+
+.rating-dropdown-status,
+.rating-dropdown-error {
+  margin: 0;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+.rating-dropdown-error {
+  color: #b42318;
+}
+
+.order-popup-body {
+  padding: 10px 12px 12px;
+}
+
+.order-popup-link {
+  display: inline-block;
+  margin-top: 6px;
+  background: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+
+.order-popup-link:hover {
+  background: #125ea9;
+}
+
+.header div:nth-child(3) i {
+  font-size: 29px;
+  margin-right: 20px;
+  color: tomato;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.header div:nth-child(3) i:hover {
+  color: #d54123;
+  transform: scale(1.05);
+}
+.header .logout-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.header .logout-btn:hover {
+  background-color: #c80c0c;
+  transform: translateY(-1px);
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.home-wrap {
+  width: min(1500px, 95%);
+  margin: 20px auto;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.banner img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+
+.banner:hover img {
+  transform: scale(1.02);
+  filter: brightness(1.05);
+}
+
+.home-adsense-slot {
+  margin: 14px 0 6px;
+}
+
+@media (max-width: 900px) {
+  .banner img {
+    height: 280px;
+  }
+
+  .home-adsense-slot {
+    margin-top: 12px;
+  }
+}

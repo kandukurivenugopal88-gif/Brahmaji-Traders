@@ -1,0 +1,16 @@
+.card-container .card {
+  width: 230px;
+  box-shadow: 0 0 10px black;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: tomato;
+}

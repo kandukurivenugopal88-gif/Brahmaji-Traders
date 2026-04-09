@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg-main: #f5f9ff;
+  --bg-soft: #ffffff;
+  --text-main: #1f2d3d;
+  --text-muted: #5f7286;
+  --brand-primary: #1565c0;
+  --brand-accent: #ff7043;
+  --line-soft: #dbe7f3;
+  --shadow-soft: 0 8px 24px rgba(22, 73, 126, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Outfit", "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at 12% 6%, rgba(21, 101, 192, 0.08) 0, transparent 35%),
+    radial-gradient(circle at 90% 10%, rgba(255, 112, 67, 0.1) 0, transparent 32%),
+    linear-gradient(180deg, #f8fbff 0%, var(--bg-main) 100%);
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", "Segoe UI", sans-serif;
+  letter-spacing: 0.1px;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8ab2df, #4d86c9);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-track {
+  background: #edf3fa;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 250px;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}

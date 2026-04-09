@@ -1,0 +1,32 @@
+.header {
+  height: 90px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 35% 45% 20%;
+}
+.header div:nth-child(1) h1 {
+  color: tomato;
+  font-size: 52px;
+}
+.header div:nth-child(2) a {
+  font-size: 17px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.header div:nth-child(3) i {
+  font-size: 29px;
+  margin-right: 20px;
+  color: tomato;
+}
+.header div:nth-child(3) button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
