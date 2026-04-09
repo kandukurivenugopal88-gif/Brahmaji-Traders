@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: brahmaji-traders-backend
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 5000
+      - key: CORS_ORIGIN
+        value: https://kandukurivenugopal88-gif.github.io
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB_NAME
+        value: brahmaji_traders
+      - key: OWNER_NOTIFICATION_EMAIL
+        sync: false
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: 587
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: SMTP_FROM
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: SMS_PROVIDER
+        value: twilio
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_FROM_PHONE
+        sync: false
+      - key: SMS_SIMULATION_ENABLED
+        value: true
